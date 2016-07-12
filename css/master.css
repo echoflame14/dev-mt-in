@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  width: 100vw;
+  background: white; }
+  html * {
+    box-sizing: border-box; }
+  html body {
+    width: 90%;
+    background: white;
+    margin: 0 1vw; }
+    html body header {
+      width: 90%;
+      margin: 0 auto;
+      height: 10vh; }
+      html body header nav ul {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: solid 4px black; }
+        html body header nav ul li {
+          padding-top: .5rem;
+          list-style-type: none;
+          text-decoration: none;
+          text-align: center;
+          width: 33%; }
+    html body #mainContent {
+      width: 90%;
+      height: 80vh;
+      margin: 0 auto;
+      background: red; }
+      html body #mainContent #entryView {
+        display: flex; }
+        html body #mainContent #entryView section.form {
+          width: 40%; }
+          html body #mainContent #entryView section.form h1 {
+            text-align: center; }
+          html body #mainContent #entryView section.form form {
+            width: 90%;
+            margin: 0 auto; }
+            html body #mainContent #entryView section.form form input.submit {
+              width: 100%;
+              margin: 0;
+              padding: 0;
+              background: #85FDF3; }
+            html body #mainContent #entryView section.form form input#bio {
+              height: 24vh; }
+            html body #mainContent #entryView section.form form input {
+              width: 100%;
+              height: 3em;
+              margin-bottom: .8em; }
+        html body #mainContent #entryView section.userImage {
+          background: #85FDF3;
+          height: 80vh;
+          width: 60%; }
+    html body footer {
+      height: 10vh; }
+      html body footer nav {
+        margin-top: 3vh; }
+        html body footer nav ul {
+          display: flex;
+          width: 90%;
+          margin: 0 auto;
+          border-top: solid 4px black; }
+          html body footer nav ul li {
+            padding-top: .5rem;
+            list-style-type: none;
+            text-decoration: none;
+            text-align: center;
+            width: 33%; }
+
+/*# sourceMappingURL=master.css.map */

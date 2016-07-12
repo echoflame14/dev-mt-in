@@ -1,0 +1,51 @@
+doctype html
+html(lang='en')
+	head
+		title
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel='stylesheet', href='../css/master.css')
+	body
+		header
+			nav
+				ul
+					li Search Icon
+					li DevMountain
+					li Hamburger Icon
+		#mainContent
+			#entryView
+				section.form
+					h1 Welcome to
+						span.link  DevMountain
+						span  social
+					h1 Add some info so friends can find you
+					form(id="userInfo", method="", action="")
+						input(type="text", name="fullName", value="Full Name")
+						input(type="text", name="tagline", value="Tagline")
+						input(type="text", name="profile-pic", value="Profile Image url")
+						input(type="text", name="bio", value="Bio")#bio
+						input(type="submit", name="submit", value="Submit").submit
+				section.userImage
+
+
+
+
+
+
+
+
+
+		footer
+			nav
+				ul
+					li View Friends
+					li Find Friends
+					li Update Profile
+
+
+
+
+
+	script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js")
+
+	script(type="text/javascript", src="../js/scripts.js")
